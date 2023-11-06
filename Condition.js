@@ -1,4 +1,4 @@
-// 01
+// // 01
 // const user = prompt("Enter your age: ");
 
 // if (user>=18) {
@@ -10,8 +10,13 @@
     
 //     console.log("You are left with "+age+" years to drive")
 // }
-//////////////////////////////////////////////////////////////////////////////
-// 02
+
+
+// //////////////////////////////////////////////////////////////////////////////
+
+
+// // 02
+
 // let myAge = 21;
 // let yourAge = prompt("Enter your age: ");
 
@@ -25,9 +30,10 @@
 //     console.log("You are "+agediff2+" years older than me");
 // }
 
-/////////////////////////////////////////////////////////////////////////////////
+// /////////////////////////////////////////////////////////////////////////////////
 
-//  03
+// //  03
+
 // let a = prompt("Enter first num: ")
 // let b = prompt("Enter second num: ")
 
@@ -39,7 +45,9 @@
 //     console.log(b+" is greater than "+a);
 // }
 
-//  04
+// /////////////////////////////////////////////////////////////////////////////
+
+// //  04
 
 // let marks = prompt("Enter your score: ");
 
@@ -63,10 +71,13 @@
 //     console.log("F Grade");
 // }
 
+////////////////////////////////////////////////////////////////////////////
+
 
 //  05
 
 // let x=prompt("Enter the month: ");
+// let base = /(x)/i;
 
 // if (x==="September" || x==="October" || x==="November") {
 //     console.log("Autumn");
@@ -83,5 +94,7 @@
 // else if (x==="June" || x==="July" || x==="August") {
 //             console.log("Summer");
 //             }
-
-            
+// else {
+//     console.log("Enter valid month.");
+// }
+//////////////////////////////////////////////////////////////////////////////////
